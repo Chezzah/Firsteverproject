@@ -6,11 +6,13 @@ header {
     height: 110px;
     text-align: center;
 } 
+
 .title {
     line-height: 110px;
     font-size: 48px;
     margin: 0%;
 }
+
 .container {
     display: flex;
     flex-wrap: wrap;
