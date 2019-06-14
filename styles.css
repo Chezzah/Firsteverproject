@@ -1,0 +1,26 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+header {
+    background-color: #8bebe6;
+    height: 110px;
+    text-align: center;
+} 
+.title {
+    line-height: 110px;
+    font-size: 48px;
+    margin: 0%;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 70px auto;
+}
+.block {
+    padding: 10px 20px;
+}
+h3 {
+    text-align: center;
+}
