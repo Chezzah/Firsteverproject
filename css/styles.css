@@ -1,0 +1,57 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+header {
+    background-color: #8bebe6;
+    height: 110px;
+    text-align: center;
+} 
+
+.title {
+    line-height: 110px;
+    font-size: 48px;
+    margin: 0%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 70px auto;
+}
+
+.block {
+    padding: 10px 20px;
+}
+
+h3 {
+    text-align: center;
+}
+#overlay {
+    position: absolute; 
+    display: none; 
+    width: 100%; 
+    height: 100%; 
+    top: 10; 
+    left: 10;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.85); 
+    z-index: 2;
+    cursor: pointer; 
+}
+#text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+button {
+      border: 0px;
+      margin: 0px;
+      padding: 0px;
+}

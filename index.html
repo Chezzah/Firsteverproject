@@ -5,7 +5,7 @@
     <title>Ciao Mondo</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -13,40 +13,80 @@
             <h1 class="title"> Ciao Mondo </h1>
         </header>
         <div class="container">
+                <div id="overlay" onclick="off()"></div>
             <div class="block">
-                <img src='https://images.unsplash.com/photo-1531592937781-344ad608fabf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=230&h=153&q=80' alt='Hello'>
+                <button onclick="on('Hello Hi')"> 
+                    <img src='https://images.unsplash.com/photo-1531592937781-344ad608fabf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=230&h=153&q=80' alt='Hello'>
+                </button>
                 <h3>Ciao</h3>
             </div>
             <div class="block">
-                <img src="https://images.unsplash.com/photo-1549032305-e816fabf0dd2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=230&q=80"alt='Thank you'>
+                <button onclick="on('Thanks')">
+                    <img src="https://images.unsplash.com/photo-1549032305-e816fabf0dd2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=230&q=80"alt='Thank you'>
+                </button>
                 <h3>Grazie</h3>
             </div>
             <div class="block">
-                <img src='https://images.unsplash.com/photo-1509909756405-be0199881695?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=230&q=80'alt='Your welcome'>
+                <button onclick="on('You\'re welcome')">
+                    <img src='https://images.unsplash.com/photo-1509909756405-be0199881695?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=230&q=80'alt='Your welcome'>
+                </button>
                 <h3> Prego</h3>
             </div>
             <div class="block">
-                <img src='https://images.unsplash.com/photo-1516489218137-514e13d5f7f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=230&q=80'alt='Please'>
+                <button onclick="on('Please')">
+                    <img src='https://images.unsplash.com/photo-1516489218137-514e13d5f7f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=230&q=80'alt='Please'>
+                </button>
                 <h3> Per favore</h3>
             </div>
             <div class="block">
-                <img src='https://images.unsplash.com/photo-1473625247510-8ceb1760943f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=230&h=153&q=80'alt='See you later'>
+                <button onclick="on('Goodbye')">
+                    <img src='https://images.unsplash.com/photo-1473625247510-8ceb1760943f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=230&h=153&q=80'alt='See you later'>
+                </button>
                 <h3>Arrivederci</h3>
             </div>
             <div class="block">
-                <img src='https://images.unsplash.com/photo-1533577254044-3c2b4b31183c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=230&q=80'alt='Good Morning'>
+                <button onclick="on('Good Morning')">
+                    <img src='https://images.unsplash.com/photo-1533577254044-3c2b4b31183c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=230&q=80'alt='Good Morning'>
+                </button>
                 <h3>Buongiorno</h3>
             </div>
             <div class="block">
-                <img src="https://images.unsplash.com/photo-1519414442781-fbd745c5b497?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=230&q=60"alt='Good Evening'>
+                <button onclick="on('Good Evening')">
+                    <img src="https://images.unsplash.com/photo-1519414442781-fbd745c5b497?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=230&q=60"alt='Good Evening'>
+                </button>
                 <h3> Buonasera</h3>
             </div>
             <div class="block">
-                <img src="https://images.unsplash.com/photo-1532893890977-95acae8b13fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=230&h=153&q=80"alt='Good Night'>
+                <button onclick="on('Good Night')"> 
+                    <img src="https://images.unsplash.com/photo-1532893890977-95acae8b13fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=230&h=153&q=80"alt='Good Night'>
+                </button>
                 <h3>Buonanotte</h3>
             </div>
         </div>
-
-
+    <script>
+        function on(text) {
+            // find the overlay container
+            const thing = document.getElementById("overlay");
+            // change the overlay containers display css property
+            thing.style.display = "block";
+            // Create a new html element
+            var div = document.createElement('div');
+            // give the new html element a ID
+            div.id = 'text';
+            // Insert text into html elemnt
+            div.innerHTML = text;
+            // Add html element into overlay container
+            thing.appendChild(div);
+        }
+                
+        function off() {
+            // find the overlay container
+            var thing = document.getElementById("overlay");
+            // change the overlay containers display propety
+            thing.style.display = "none";
+            // removing the first element inside of the overlay container
+            thing.removeChild(thing.firstChild);
+        }
+    </script>
 </body>
 </html>
